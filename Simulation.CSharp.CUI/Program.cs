@@ -1,12 +1,12 @@
 ﻿Console.ForegroundColor = ConsoleColor.Cyan;
 Console.WriteLine("Hello and welcome to the Simulation!\n");
 
-(int w, int h) = GetWorldDimentions();
+(int w, int h) = GetWorldDimensions();
 Console.WriteLine($"Width = {w}; Height = {h}");
 
 Simulation.CSharp.Domain.Simulation.Simulation simulation = new();
 
-(int, int) GetWorldDimentions()
+(int, int) GetWorldDimensions()
 {
     Console.ForegroundColor = ConsoleColor.Green;
     Console.WriteLine("Enter the field parameters:");
