@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulation.CSharp.CUI", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulation.CSharp.View", "Simulation.CSharp.View\Simulation.CSharp.View.csproj", "{07DCB533-5394-4BEF-93D6-19D2083F8C0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simulation.CSharp.Application", "Simulation.CSharp.Application\Simulation.CSharp.Application.csproj", "{A9AC73EA-AEC2-4F7C-B541-7CB13D7D31FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{07DCB533-5394-4BEF-93D6-19D2083F8C0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07DCB533-5394-4BEF-93D6-19D2083F8C0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07DCB533-5394-4BEF-93D6-19D2083F8C0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9AC73EA-AEC2-4F7C-B541-7CB13D7D31FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AC73EA-AEC2-4F7C-B541-7CB13D7D31FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9AC73EA-AEC2-4F7C-B541-7CB13D7D31FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AC73EA-AEC2-4F7C-B541-7CB13D7D31FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

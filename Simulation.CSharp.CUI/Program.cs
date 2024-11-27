@@ -4,7 +4,7 @@ Console.WriteLine("Hello and welcome to the Simulation!\n");
 (int w, int h) = GetWorldDimensions();
 Console.WriteLine($"Width = {w}; Height = {h}");
 
-Simulation.CSharp.Domain.Simulation.Simulation simulation = new();
+Simulation.CSharp.Application.Simulation simulation = new();
 
 (int, int) GetWorldDimensions()
 {

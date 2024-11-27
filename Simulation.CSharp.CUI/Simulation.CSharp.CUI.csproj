@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Simulation.CSharp.Application\Simulation.CSharp.Application.csproj" />
     <ProjectReference Include="..\Simulation.CSharp.Domain\Simulation.CSharp.Domain.csproj" />
     <ProjectReference Include="..\Simulation.CSharp.View\Simulation.CSharp.View.csproj" />
   </ItemGroup>

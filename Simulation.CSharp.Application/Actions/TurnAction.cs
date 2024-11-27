@@ -1,6 +1,6 @@
 ﻿using Action = Simulation.CSharp.Domain.Abstract.Action;
 
-namespace Simulation.CSharp.Domain.Simulation.Actions
+namespace Simulation.CSharp.Application.Actions
 {
     public class TurnAction : Action
     {
